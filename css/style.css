@@ -192,6 +192,32 @@ textarea {
 	margin-top: 12px;
 	margin-bottom: 70px;
 }
-.ba-ingredients-post img {
-	margin-right: 10px;
+.ba-ingredients-img-block {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+	.ba-menu, .ba-social {
+	display: none;
+	}
+	.ba-about-post, .ba-ingredients-post {
+		float: none;
+		margin: 0 auto;
+	}
+}
+@media (max-width: 480px) {
+	.ba-promo__text {
+		font-size: 50px;
+	}
+	.ba-about-post-img {
+	margin-left: 0;
+	}
+	.ba-ingredients-post {
+		padding: 70px 30px;
+	}
+	.ba-ingredients-post img {
+		margin-right: 0;
+		float: none;
+	}
 }

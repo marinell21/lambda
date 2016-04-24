@@ -80,8 +80,8 @@ textarea {
 /* Layout */
 .ba-container{
 	max-width: 1210px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 /* PROMO */
 .ba-promo {
@@ -148,7 +148,7 @@ textarea {
 }
 .ba-about-post {
 	max-width: 409px;
-	margin-left: 50px;
+	margin-left: 75px;
 }
 .ba-about-post__title {
 	font-family: YesevaOne, serif;
@@ -159,13 +159,39 @@ textarea {
 	margin-bottom: 15px;
 }
 .ba-about-post__text  {
+	line-height: 1.5;
 	margin: 10px 0;
 }
 .ba-about-post__img {
 	margin-top: 42px;
 	margin-right: 58px;
 }
-
 .ba-about-post-img {
 	margin-left: 37px;
+}
+/* INGRIDIENTS */
+.ba-ingredients {
+	background: url(../img/ingr/bg_ingridients.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+.ba-ingredients-post {
+	max-width: 570px;
+	background: rgba(0,0,0,.6);
+	padding: 70px 70px;
+}
+.ba-ingredients__title {
+	font-family: YesevaOne, serif;
+	font-size: 40px;
+	margin: 0;
+	padding-bottom: 53px;
+	background: url(../img/ingr/divider_ing.png) 50% 100% no-repeat;
+}
+.ba-ingredients-post p {
+	line-height: 1.5;
+	margin-top: 12px;
+	margin-bottom: 70px;
+}
+.ba-ingredients-post img {
+	margin-right: 10px;
 }

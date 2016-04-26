@@ -79,9 +79,9 @@ textarea {
 
 /* Layout */
 .ba-container{
-	max-width: 1210px;
-	padding-left: 20px;
-	padding-right: 20px;
+	max-width: 1250px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 /* PROMO */
 .ba-promo {
@@ -93,6 +93,7 @@ textarea {
 	background: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
 	position: fixed;
 	width: 100%;
+	// z-index: 10;
 }
 .ba-menu {
 	list-style: none;
@@ -196,6 +197,173 @@ textarea {
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
+}
+/* CARTE */
+.ba-carte {
+	color: #4c4c4c;
+	background: linear-gradient(to bottom right, rgba(32,90,91,.1), transparent), url(../img/carte/background-carte.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 70px 180px 45px;
+}
+.ba-carte-block {
+	max-width: 440px;
+	margin-bottom: 75px;
+}
+.ba-carte-block__title {
+	font-family: YesevaOne, serif;
+	color:  #cc9900;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 35px;
+	margin-bottom: 20px;
+	background: url(../img/carte/divider_carte.png) 50% 100% no-repeat;
+}
+.ba-carte-block__box {
+	border-bottom: 1px solid rgba(200,159,45,.5);
+	padding: 0 10px;
+}
+.ba-carte-block__subtitle {
+	font-family: YesevaOne, serif;
+	color:  #c89f2d;
+	font-size: 23px;
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-top: 10px;
+}
+.ba-carte-block__price {
+	float: right;
+	font-family: YesevaOne, serif;
+	color:  #c89f2d;
+	font-size: 23px;
+	margin-top: 13px;
+	font-weight: 700;
+}
+.ba-carte-block p {
+	padding: 10px 0 0 10px;
+	margin-bottom: 20px;
+	margin-top: 0;
+}
+.ba-carte-block__box--special {
+	position: relative;
+	border: 1px solid rgba(200,159,45,.5);
+}
+.ba-carte-block__box--special p {
+	border-top: 1px solid rgba(200,159,45,.5);
+	padding-left: 0;
+}
+.ba-carte-block__box--special:before {
+	content: 'Spesial';
+	position: absolute;
+	right: 0;
+	top: -18px;
+	display: inline-block;
+	padding: 0 3px;
+	background: #c89f2d;
+	color: #fff;
+}
+/* .ba-grid > [class*="ba-width-"] {
+    float: left;
+    padding-left: 160px;
+}
+
+.ba-grid {
+    margin-left: -160px;
+} */
+/* REVIEW */
+.ba-review {
+	background: #ddd url(../img/review/bg-review.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 100px 0 90px;
+}
+.ba-review-text {
+	position: relative;
+	max-width: 770px;
+	margin: 0 auto;
+	text-align: center;
+	background: rgba(0,0,0,.8);
+	padding: 40px 70px 70px;
+}
+.ba-review-text__title {
+	font-family: YesevaOne;
+	font-size: 40px;
+	background: url(../img/review/divider-rev.png) 50% 100% no-repeat;
+	padding-bottom: 37px;
+	margin-bottom: 10px;
+}
+.fa-quote-left {
+	position: absolute;
+	color: #FFF;
+	top: 30%;
+	left: 20px;
+	font-size: 30px;
+}
+.ba-review-text p {
+	font-family: Gentium, serif;
+	color:  #dee0e0;
+	font-size: 25px;
+	font-weight: 700;
+	line-height: 1.75;
+	letter-spacing: 1px;
+}
+/* RESERV */
+.ba-reserv {
+	background: url(../img/about/bg_about.jpg) 50% no-repeat;
+	background-size: cover;
+	padding: 100px 0;
+}
+.ba-reserv-text {
+	max-width: 430px;
+	text-align: center;
+	color:  #4c4c4c;
+	margin: 0 auto;
+}
+.ba-reserv-text__title {
+	font-family: YesevaOne, serif;
+	color:  #cc9900;
+	font-size: 40px;
+	background: url(../img/carte/divider_carte.png) 50% 100% no-repeat;
+	padding-bottom: 40px;
+	margin-top: 0;
+	line-height: 0.9;
+}
+.ba-reserv-text p {
+	line-height: 1.65;
+	letter-spacing: 0.7px;
+}
+.ba-form {
+	max-width: 430px;
+	margin-top: 28px;
+	margin: 0 auto;
+	padding: 5px;
+	text-align: center;
+}
+.ba-form label {
+	display: block;
+	font-family: Lato, sans-serif;
+	color:  #c9a131;
+	font-size: 16px;
+	text-align: left;
+}
+.ba-form input {
+	display: block;
+	margin-top: 7px;
+	padding: 5px 15px;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.ba-form-select {
+	color:  #B1A9B1;
+	padding: 7px 15px;
+	margin-top: 9px;
+	font-size: 14px;
+	width: 100%;
+}
+.ba-button--form {
+	display: inline-block;
+	height: 38px;
+	line-height: 38px;
+	background: #c89f2d;
+	margin-top: 18px;
 }
 @media (max-width: 768px) {
 	.ba-menu, .ba-social {

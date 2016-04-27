@@ -401,6 +401,7 @@ textarea {
 		float: none;
 		margin: 0 auto;
 	}
+
 }
 @media (max-width: 480px) {
 	.ba-promo__text {
@@ -429,13 +430,17 @@ textarea {
 		margin-left: 0;
 		padding-left: 0;
 	}
-	.ba-extra-small-1-1 {
-		width: 100%;
-	}
 	.ba-review-text {
 		padding: 10px;
 	}
 	.ba-review-text p {
 		font-size: 16px;
+	}
+	.ba-reserv__dish {
+		float: none;
+	}
+	.ba-reserv__cherry-dish {
+		margin-top: 20px;
+		float: none;
 	}
 }

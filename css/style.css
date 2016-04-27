@@ -404,10 +404,16 @@ textarea {
 }
 @media (max-width: 480px) {
 	.ba-promo__text {
-		font-size: 50px;
+		font-size: 45px;
+	}
+	.ba-button {
+		padding: 0 50px;
 	}
 	.ba-about-post-img {
 	margin-left: 0;
+	}
+	.ba-about-post__img {
+		margin-right: 0;
 	}
 	.ba-ingredients-post {
 		padding: 70px 30px;
@@ -415,5 +421,21 @@ textarea {
 	.ba-ingredients-post img {
 		margin-right: 0;
 		float: none;
+	}
+	.fa-quote-left {
+		display: none;
+	}
+	.ba-carte-block {
+		margin-left: 0;
+		padding-left: 0;
+	}
+	.ba-extra-small-1-1 {
+		width: 100%;
+	}
+	.ba-review-text {
+		padding: 10px;
+	}
+	.ba-review-text p {
+		font-size: 16px;
 	}
 }

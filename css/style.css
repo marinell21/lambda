@@ -203,11 +203,16 @@ textarea {
 	color: #4c4c4c;
 	background: linear-gradient(to bottom right, rgba(32,90,91,.1), transparent), url(../img/carte/background-carte.jpg) 50% no-repeat;
 	background-size: cover;
-	padding: 70px 180px 45px;
+	padding: 70px 0 30px;
 }
 .ba-carte-block {
-	max-width: 440px;
-	margin-bottom: 75px;
+	max-width: 490px;
+	margin-bottom: 35px;
+	margin-left: 20px;
+	list-style: none;
+}
+.ba-carte-block li {
+	padding-bottom: 5px;
 }
 .ba-carte-block__title {
 	font-family: YesevaOne, serif;
@@ -247,33 +252,22 @@ textarea {
 	position: relative;
 	border: 1px solid rgba(200,159,45,.5);
 }
-.ba-carte-block__box--special p {
-	border-top: 1px solid rgba(200,159,45,.5);
-	padding-left: 0;
-}
+
 .ba-carte-block__box--special:before {
 	content: 'Spesial';
 	position: absolute;
 	right: 0;
 	top: -18px;
 	display: inline-block;
-	padding: 0 3px;
+	padding: 0 5px;
 	background: #c89f2d;
 	color: #fff;
 }
-/* .ba-grid > [class*="ba-width-"] {
-    float: left;
-    padding-left: 160px;
-}
-
-.ba-grid {
-    margin-left: -160px;
-} */
 /* REVIEW */
 .ba-review {
 	background: #ddd url(../img/review/bg-review.jpg) 50% no-repeat;
 	background-size: cover;
-	padding: 100px 0 90px;
+	padding: 100px 0 97px;
 }
 .ba-review-text {
 	position: relative;
@@ -309,7 +303,7 @@ textarea {
 .ba-reserv {
 	background: url(../img/about/bg_about.jpg) 50% no-repeat;
 	background-size: cover;
-	padding: 100px 0;
+	padding: 100px 0 95px;
 }
 .ba-reserv-text {
 	max-width: 430px;
@@ -344,12 +338,16 @@ textarea {
 	font-size: 16px;
 	text-align: left;
 }
-.ba-form input {
+.ba-form-field {
 	display: block;
 	margin-top: 7px;
 	padding: 5px 15px;
 	width: 100%;
 	margin-bottom: 10px;
+}
+.ba-form-field:focus {
+	outline: none;
+	border: 1px solid #c9a131;
 }
 .ba-form-select {
 	color:  #B1A9B1;
@@ -364,6 +362,36 @@ textarea {
 	line-height: 38px;
 	background: #c89f2d;
 	margin-top: 18px;
+}
+.ba-button--form:focus {
+	outline: none;
+}
+.ba-footer {
+	background-color: #191919;
+	font-size: 14px;
+	padding: 35px 0 70px;
+	text-align: center;
+}
+.ba-footer__title {
+	font-family: YesevaOne, serif;
+	color:  #fefefe;
+	font-size: 21px;
+	background: url(../img/footer/divider-footer.png) 50% 100% no-repeat;
+	padding-bottom: 35px;
+}
+.ba-footer p {
+	line-height: 1.5;
+	font-size: 17px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.ba-footer-card__links,
+.ba-footer-social__links {
+	margin-top: 47px;
+}
+.ba-footer .fa {
+	color: #FFF;
+	font-size: 14px;
 }
 @media (max-width: 768px) {
 	.ba-menu, .ba-social {

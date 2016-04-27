@@ -27,14 +27,18 @@
 						<a  href="#" class="fa fa-youtube" aria-hidden="true"></a>
 						<a  href="#" class="fa fa-facebook" aria-hidden="true"></a>
 					</div>
-					<ul class="ba-menu ba-float-right">
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#ingredients">Igredients</a></li>
-						<li><a href="#">Menu</a></li>
-						<li><a href="#">Reviews</a></li>
-						<li><a href="#">Reservations</a></li>
-					</ul>
+					<nav class="ba-float-right">
+					<button class="ba-toggle"><span class="ba-toggle__icon"></span></button>
+					<div class="ba-overlay"></div>
+						<ul class="ba-menu">
+							<li><a href="#home">Home</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#ingredients">Igredients</a></li>
+							<li><a href="#carte">Menu</a></li>
+							<li><a href="#reviewes">Reviews</a></li>
+							<li><a href="#reserv">Reservations</a></li>
+						</ul>
+					</nav>
 				</div>
 			</div>
 		</header>
@@ -75,7 +79,7 @@
 	</section>
 	<!-- END ba-ingridients -->
 	<!-- BEGIN ba-carte  -->
-	<section class="ba-carte">
+	<section class="ba-carte" id="carte">
 		<div class="ba-container">
 			<div class="ba-grid">
 				<div class="ba-width-medium-1-2">
@@ -112,7 +116,7 @@
 							</div>
 							<p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
 						</li>
-						<li class="ba-carte-block__box--special">
+						<li class="ba-carte-block__special">
 							<div class="ba-carte-block__box">
 								<h4 class="ba-carte-block__subtitle">Greek Salad</h4>
 								<span class="ba-carte-block__price">$5.50</span>
@@ -156,7 +160,7 @@
 							</div>
 							<p>Refreshing traditional cucumber and garlic yoghurt dip.</p>
 						</li>
-						<li class="ba-carte-block__box--special">
+						<li class="ba-carte-block__special">
 							<div class="ba-carte-block__box">
 								<h4 class="ba-carte-block__subtitle">Roast Lamb</h4>
 								<span class="ba-carte-block__price">$5.50</span>
@@ -186,19 +190,19 @@
 	</section>
 	<!-- END ba-carte -->
 	<!-- BEGIN ba-review  -->
-	<section class="ba-review">
+	<section class="ba-review" id="reviewes">
 		<div class="ba-container">
 			<div class="ba-review-text">
 				<h2 class="ba-review-text__title">Guest Reviews</h2>
 				<i class="fa fa-quote-left" aria-hidden="true"></i>
-				<p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+				<blockquote>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</blockquote>
 				<p>- food inc, New York</p>
 			</div>
 		</div>
 	</section>
 	<!-- END ba-review -->
 	<!-- BEGIN ba-reserv  -->
-	<section class="ba-reserv">
+	<section class="ba-reserv" id="reserv">
 		<div class="ba-container">
 			<div class="ba-grid">
 				<div class="ba-width-large-1-2 ba-text-center">

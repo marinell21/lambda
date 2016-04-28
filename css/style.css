@@ -92,7 +92,6 @@ textarea {
 	background: linear-gradient(to bottom, rgba(0,0,0,.5), transparent);
 	position: fixed;
 	width: 100%;
-	// z-index: 10;
 }
 
 .ba-menu {
@@ -418,11 +417,10 @@ textarea {
 	}
 	.ba-menu a {
 		padding: 10px 20px;
-		border-bottom: 1px solid #514438;
 	}
 	.ba-menu li {
-		width: 100%;
 		float: none;
+		border-bottom: 1px solid #514438;
 	}
 	.ba-overlay {
 		position: fixed;
@@ -436,9 +434,9 @@ textarea {
 		visibility: hidden;
 		transition: opacity .4s, visibility .4s;
 	}
-	html {
+/* 	html {
 		overflow-y: scroll;
-	}
+	} */
 	body {
 		transition: transform .4s;
 	}
